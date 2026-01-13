@@ -87,6 +87,3 @@ class OnlineSalesRegisterCollector:
         for l in date:
             date_and_time.append(f'{l[0]}: {l[1]}')
         return date_and_time
-
-check = OnlineSalesRegisterCollector()
-print(check.get_date_and_time())
